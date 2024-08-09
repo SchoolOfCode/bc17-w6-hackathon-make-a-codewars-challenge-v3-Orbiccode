@@ -1,5 +1,7 @@
 Put your plan, story, and any supporting material here, you could use the help of a readme markdown generator such as [readme.so](https://readme.so/)
 
+// ./dice.js
+>
 Basic Dice Battle with rounds
 - create a dice battle game between player and computer
 - Each round consists of 5 rolls
@@ -25,7 +27,7 @@ Test Plan
 
 DISNEY DREAM IDEA
 > 
-D-battle game
+D-battle game // ./main.js
 
 design a game where the player and computer take turns rolling dice 
 the result of that dice roll decreases the opponents health by said amount
