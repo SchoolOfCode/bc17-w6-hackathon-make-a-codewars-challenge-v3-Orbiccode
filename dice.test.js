@@ -9,6 +9,63 @@ import {
 
 } from './dice.js'
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 test('can you roll?', () => {
     expect(rollDice()).toBeGreaterThanOrEqual(1);
     expect(rollDice()).toBeLessThanOrEqual(6);
@@ -23,7 +80,7 @@ test('can you push?', () => {
 
 describe('can you win?', () => {
     it('should fill an Array', () => {
-        gameLoop()
+        gameLoop() 
         expect(playerRound.length).toBe(5);
         expect(computerRound.length).toBe(5);
     })
