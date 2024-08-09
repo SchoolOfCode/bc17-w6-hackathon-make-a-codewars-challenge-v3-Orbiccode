@@ -4,8 +4,8 @@ import {
     playerRoll,
     computerRoll,
     gameLoop,
-    playerRound,
-    computerRound,
+    playerRoundArray,
+    computerRoundArray,
 
 } from './dice.js'
 
@@ -75,16 +75,16 @@ test('can you roll?', () => {
 test('can you push?', () => {
     playerRoll();
     computerRoll();
-    expect(playerRound.length).toBe(1);
-    expect(computerRound.length).toBe(1);
+    expect(playerRoundArray.length).toBe(1);
+    expect(computerRoundArray.length).toBe(1);
 })
 
 // test to see if the array is filled with 5 values
 describe('can you win?', () => {
     it('should fill an Array', () => {
         gameLoop() 
-        expect(playerRound.length).toBe(5);
-        expect(computerRound.length).toBe(5);
+        expect(playerRoundArray.length).toBe(5);
+        expect(computerRoundArray.length).toBe(5);
     })
 })
  
