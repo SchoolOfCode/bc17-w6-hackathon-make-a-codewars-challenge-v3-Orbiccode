@@ -7,17 +7,19 @@ Basic Dice Battle with rounds
 - A winner of the round is declared.
 >
 Plan
-- create a dice roll function
-- create an array for player and computer
-- create function that pushes roll values into array
-- create function that sums the values in the array and compares them against each other
-- declare a winner after totals have been compared
+- create a dice roll function ✅
+- create an array for player and computer ✅
+- create function that pushes roll values into array ✅
+- create function that sums the values in the array and compares them against each other ✅
+- declare a winner after totals have been compared✅
 >
 Test Plan
-- Check if dice roll os between 1 - 6
-- check if roll value is pushed into the array
-- check if 5 values are pushed into the array
-- check if 'Player Win' is returned when winning conditions are met
+- Check if dice roll os between 1 - 6 ✅
+- check if roll value is pushed into the array ✅
+- check if 5 values are pushed into the array ✅
+- check if 'Player Win' is returned when winning conditions are met ❌
+>
+❌ - Didn't understand the test syntax neccessary to get a value from the random roll in order to create the win conditions so I could then test them.
 
 
 
