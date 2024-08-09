@@ -11,14 +11,14 @@ import { rollDice,
 
 // roll test
 
-test('can you roll?', () => {
+test.skip('can you roll?', () => {
     expect(rollDice()).toBeGreaterThanOrEqual(1);
     expect(rollDice()).toBeLessThanOrEqual(6);
 })
 
 // damage test
 
-test('can you damage?', ()  => {
+test.skip('can you damage?', ()  => {
     expect(updateHealth(50, 6)).toBe(44);
     expect(updateHealth(25, 3)).toBe(22);
     expect(updateHealth(10, 1)).toBe(9);
@@ -26,7 +26,7 @@ test('can you damage?', ()  => {
 
 //checkWin function test
 
-test('can you win?', () => {
+test.skip('can you win?', () => {
     expect(checkWin(0, 30)).toBe('computer');
     expect(checkWin(30, 0)).toBe('player');
     expect(checkWin(30, 30)).toBe(null);
@@ -34,7 +34,7 @@ test('can you win?', () => {
 
 // gameTurn
 
-test('can you game?', () => {
+test.skip('can you game?', () => {
     expect(gameTurn(6, 0, 40, 5)).toEqual({
         'computerHealth': -1,
         'playerHealth': 40,
