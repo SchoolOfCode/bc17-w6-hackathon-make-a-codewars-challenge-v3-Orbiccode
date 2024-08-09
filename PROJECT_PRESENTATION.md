@@ -1,12 +1,28 @@
 Put your plan, story, and any supporting material here, you could use the help of a readme markdown generator such as [readme.so](https://readme.so/)
 
 Basic Dice Battle with rounds
-- create a dice battle code kata between player and computer with 5 rolls of a dice in a row with sides between 1-6
-- total the results at the end of the round
-- keep track of who won the rounds 
+- create a dice battle game between player and computer
+- Each round consists of 5 rolls
+- The total of the 5 rolls is calculated
+- A winner of the round is declared.
+>
+Plan
+- create a dice roll function
+- create an array for player and computer
+- create function that pushes roll values into array
+- create function that sums the values in the array and compares them against each other
+- declare a winner after totals have been compared
+
+Test Plan
+- Check if dice roll os between 1 - 6
+- check if roll value is pushed into the array
+- check if 5 values are pushed into the array
+- check if 'Player Win' is returned when winning conditions are met
 
 
-> Dice battle game
+DISNEY DREAM IDEA
+> 
+D-battle game
 
 design a game where the player and computer take turns rolling dice 
 the result of that dice roll decreases the opponents health by said amount
@@ -29,7 +45,7 @@ Game Plan
 - detect when health = 0 to declare winner 
 
 
-test plan
+Test Plan
 
 - creat test that roll is between 1-6
 - test that roll decreases health by right amount

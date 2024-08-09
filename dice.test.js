@@ -65,12 +65,13 @@ import {
 
 
 
-
+// test to see if the roll is between 1 - 6
 test('can you roll?', () => {
     expect(rollDice()).toBeGreaterThanOrEqual(1);
     expect(rollDice()).toBeLessThanOrEqual(6);
 })
 
+// test to see if the roll value is pushed into the array
 test('can you push?', () => {
     playerRoll();
     computerRoll();
@@ -78,6 +79,7 @@ test('can you push?', () => {
     expect(computerRound.length).toBe(1);
 })
 
+// test to see if the array is filled with 5 values
 describe('can you win?', () => {
     it('should fill an Array', () => {
         gameLoop() 
@@ -85,3 +87,5 @@ describe('can you win?', () => {
         expect(computerRound.length).toBe(5);
     })
 })
+ 
+// test to see if the gameLoop returns 'Player Win' under winning conditions
