@@ -23,7 +23,7 @@ Test Plan
 >
 ❌ - Didn't understand the test syntax neccessary to get a value from the random roll in order to create the win conditions so I could then test them.
 
-
+![alt text](<Screenshot 2024-08-09 at 11.55.19.png>)
 
 DISNEY DREAM IDEA
 > 
